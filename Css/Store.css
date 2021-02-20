@@ -1,0 +1,414 @@
+/* Error: Expected newline.
+ *   ,
+ * 2 | header{
+ *   |       ^
+ *   '
+ *   Store.sass 2:7  root stylesheet */
+ @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+ .header {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--grey-alt);
+  overflow: hidden;
+}
+
+.nav {
+  padding: 1.6rem 0;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #243a6f;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+.list-menu {
+  display: flex;
+  align-items: center;
+}
+.list-menu {
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem 1.6rem;
+}
+.social-icons {
+  margin: 30px auto;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 12px;
+  box-shadow: 0 0 20px 0 #7f7f7f3d;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.w3-container .Title{
+    margin-left: 80px;
+    padding-bottom: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight:lighter;
+    opacity: 0.7;
+    }
+
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+nav ul li{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav ul .list-menu{
+  display: none;
+  position: absolute;
+  padding-left: 20px;
+  
+  
+  
+}
+nav ul .nav2:hover .list-menu{
+  display: block;
+  
+  
+}
+
+
+
+.w3-content img {
+  margin-top: 20px;
+  width: 50px;
+  height: 650px;
+  
+}
+.w3-content .container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  
+}
+.w3-content .mySlides .i1{
+  width: 450px;
+  height: 600px;
+}
+.w3-content .mySlides .i2{
+  width: 400px;
+  height: 550px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.w3-content h3{
+  font-family: 'PT Mono', monospace;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.w3-content button{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 200px;
+  height: 50px;
+  margin-top: 300px;
+}
+.Catagory {
+  padding-left: 500px;
+  padding-right: 1200px;
+
+}
+.Catagory .Men-Clothes:hover{
+  transform: rotate(0) scale(1.2) translateZ(0);
+  -webkit-filter: drop-shadow(0 20px 20px  rgba(0, 0, 0, 0.70));
+  filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.70));
+
+}
+.small-container{
+  max-width: 1080px;
+  margin:auto ;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  font-family: 'PT Mono', monospace;
+}
+
+.col-4 img {
+  width: 100%;
+  height: 70%;
+}
+.col-4:hover{
+  transform: translateY(10px)
+}
+.col-2{
+  font-family: 'PT Mono', monospace;
+}
+
+.footer {
+  background-color: var(--black);
+  padding: 6rem 1rem;
+  line-height: 3rem;
+}
+
+.footer-center span {
+  margin-right: 1rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: var(--white);
+}
+
+.footer-center a:link,
+.footer-center a:visited {
+  display: block;
+  color: #f1f1f1;
+  font-size: 1.4rem;
+  transition: 0.6s;
+}
+
+.footer-center a:hover {
+  color: var(--pink);
+}
+
+.footer-center div {
+  color: #f1f1f1;
+  font-size: 1.4rem;
+}
+
+.footer-center h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+ul{
+  list-style: none;
+  margin-right: 20px;
+
+
+}
+.footer hr{
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
+.d-p{
+  width: 400px;
+  margin-left: 40%;
+  margin-bottom: 20px;
+
+}
+.Category{
+  margin-top: 20px;
+}
+.Category .row{
+  text-align: center;
+  
+
+}
+.Category .cat-row{
+  display: flex;
+  flex-direction: row;
+
+}
+.Category h1{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color:#ECECEC;
+  opacity: initial;
+  font-family: 'PT Mono', monospace;
+  font-weight: 500;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+/* ##################### cart page ###################### */
+
+.container-products {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.container-products ion-icon {
+  font-size: 25px;
+  color: gray;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+
+.product-title {
+  width: 45%;
+}
+
+.price {
+  width: 15%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.total {
+  width: 10%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+  cursor: pointer;
+  
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products img {
+  width: 75px;
+}
+
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.basketTotalTitle {
+  width: 30%;
+}
+
+.basketTotal {
+  width: 10%;
+}
+
+.form-box {
+  width: 380px;
+  height: 400px;
+  position:relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
+.submit-btn {
+  width: 100%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background:linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  
+}
+.logout {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background:linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+h1 {
+  text-align: center;
+  width: auto;
+  margin: 10px;
+  padding:  10px;
+  
+}
+
+
+.name, .email, .passwords {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background:transparent;
+}
+@media(max-width: 500px) {
+  nav h2 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;;
+  }
+
+  .sm-hide {
+      display: none;;
+  }
+
+  .products,
+  .product-header {
+      justify-content: center;
+  }
+
+  .basketTotalContainer {
+      padding-right: 8%;
+  }
+}
+
+
+
+
+
+

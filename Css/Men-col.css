@@ -1,0 +1,67 @@
+header{
+    background-color: #CCCCCC ;
+    font-family: 'PT Mono', monospace;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.search{
+    margin-left: 100px;
+
+    
+}
+.search input{
+    border: 1px solid #CCCCCC;
+}
+
+.container-men{
+    display: flex;
+    
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.container-men .card-products{
+    border: 1px solid #CCCCCC;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container-men .card-products .men-img{
+    width: 380px;
+    height: 400px;
+}
+
+.container-men .card-products .card-detail{
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+} 
+.container-men .card-products .card-detail .add-cart{
+    background-color: #CCCCCC;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    background-color: #ECECEC ;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-right: 10px;
+}
+#filter-btn{
+    margin-left: 110px;
+    margin-top: 20px;
+}
